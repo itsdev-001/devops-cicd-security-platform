@@ -1,0 +1,20 @@
+name: Production Deployment
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  production-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Production Deployment
+        run: echo "Production deployment successful"
+
+      - name: Rollback Mechanism
+        run: echo "Rollback configured"

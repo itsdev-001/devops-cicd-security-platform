@@ -1,0 +1,21 @@
+stages:
+  - checkout
+  - build
+  - test
+  - security
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Building application"
+
+test_job:
+  stage: test
+  script:
+    - echo "Running tests"
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Deploying application"

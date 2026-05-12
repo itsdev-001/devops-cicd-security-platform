@@ -1,5 +1,7 @@
 # DevOps CI/CD Security Platform
 
+![CI](https://github.com/itsdev-001/devops-cicd-security-platform/actions/workflows/deploy.yml/badge.svg)
+
 ## Branching Strategy
 - development branch for active development
 - staging branch for testing

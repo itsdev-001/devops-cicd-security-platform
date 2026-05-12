@@ -1,0 +1,7 @@
+pipeline:
+  stages:
+    - checkout
+    - build
+    - test
+    - security-validation
+    - deployment
